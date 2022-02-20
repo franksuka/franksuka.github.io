@@ -1,15 +1,12 @@
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
-  background: #F7F7F7;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  margin: 0 auto;
+  background: rgb(229, 250, 210);
 }
 html {
   text-align: center;
@@ -43,9 +40,13 @@ html {
 img {
   margin-left: -30px;
   border-radius: 30px;
+  width: 325px;
 }
 p {
-  font-size: 18px;
+  font-size: 22px;
+  font-family: 'Varela Round';
+  font-weight: 100px;
+  color: #fff;
 }
  
 
@@ -53,11 +54,11 @@ p {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
   background-size: cover;
   height: 300px;
-  width: auto;
+  width: 1500px;
   margin-top: 0px;
 }
 #reg .content h1 {
-  font-family: Helvetica;
+  font-family: "Oswald";
   font-size: 100px;
   font-weight: bold;
   text-align: center;
@@ -67,45 +68,59 @@ p {
 #reg .content h3 {
   font-size: 40px;
   font-weight: bold;
-  font-family: Helvetica;
-  color: blue;
+  font-family: "Oswald";
+  color: khaki;
   text-align: left;
-  margin-top: 1px;
-  margin-left: 100px;
+  margin-top: 10px;
+  width: 0px;
   min-width: 300px;
   max-width: 500px;
+  position: relative;
+  left: 120px;
+  top: 0px;
 }
 
 h2 {
   font-size: 38px !important;
 }
+.brushes {
+  background-color: #466995;
+}
 .brushes h2 {
-  font-family: Helvetica;
+  font-family: "Oswald";
   font-size: 32px;
   font-weight: bold;
-  color: white;
+  color: blueviolet;
   background-color: mediumspringgreen;
-  width: 70%;
-  margin-left: 220px;
-  border-radius: 100px;
+  width: 100%;
+  border: 2px solid khaki;
 }
 .editor {
-  font-family: Helvetica;
+  font-family: "Oswald";
   font-weight: bold;
-  color: blue;
+  color: coral;
+  font-size: 18px;
+}
+.frames {
+  background-color: #DBE9EE;
 }
 .frames h2 {
-  font-family: Helvetica;
+  font-family: "Oswald";
   font-size: 32px;
   font-weight: bold;
-  color: white;
+  color: blueviolet;
   background-color: lightcoral;
-  width: 70%;
-  margin-left: 220px;
-  border-radius: 100px;
+  width: 100%;
+  border: 2px solid #466995;
+}
+.frames p {
+  color: #466995;
+}
+.frames figcaption {
+  color: #466995;
 }
 .paint h2 {
-  font-family: Helvetica;
+  font-family: "Oswald";
   font-size: 32px;
   font-weight: bold;
   color: white;
@@ -117,6 +132,8 @@ h2 {
 figcaption {
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Varela Round';
+  color: #fff;
 }
 figure {
   margin: left;
