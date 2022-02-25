@@ -1,44 +1,40 @@
 <style>
 * {
   box-sizing: border-box;
- }
+}
+
 body {
   padding: 0;
   margin: 0;
-  background: rgb(229, 250, 210);
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  margin: 0 auto;
+  background: #212529;;
 }
 html {
   text-align: center;
 }
-.fancy {
-  border: 2px solid lightgreen;
-  display: inline;
+#reg .fancy {
   padding: 40px;
   position:relative;
+  bottom: 70px;
+  left: 88%;
   text-align: center;
-  width: 500px;
+  width: 150px;
+  display: block;
 }
 
-.fancy a {
-  background: red;
+#reg .fancy a {
+  background: var(--uog-red,#c20430);
   border: 1px solid red;
   border-radius: 3px;
   color: white;
   display: inline-block;
   margin: 10px;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
   font-size: 18px;
-  width: 100px;
+  width: 110px;
+  text-align: center;
 }
-.fancy a:hover {
+#reg .fancy a:hover {
   background: white;
   border: 1px solid red;
   color: red;
@@ -59,27 +55,32 @@ p {
 #reg {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
   background-size: cover;
-  height: 300px;
-  min-width: 950px;
-  max-width: 1600px;
+  min-height: 200px;
+  max-height: 300px;
+  min-width: 1500px;
+  max-width: 1600px
+  margin-top: 0px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1;
 }
 #reg .content h1 {
   font-family: "Oswald";
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-  color: khaki;
+  color: rgb(255, 199, 42);
   margin-bottom: 5px;
 }
 #reg .content h3 {
   font-size: 40px;
   font-weight: bold;
   font-family: "Oswald";
-  color: khaki;
+  color: rgb(255, 199, 42);
   text-align: left;
   margin-top: 10px;
   min-width: 300px;
-  max-width: 325px;
+  max-width: 500px;
   position: relative;
   left: 120px;
   top: 0px;
@@ -91,6 +92,8 @@ h2 {
 }
 .brushes {
   background-color: #466995;
+  position: relative;
+  top: 300px;
 }
 .brushes h2 {
   font-family: "Oswald";
@@ -109,6 +112,8 @@ h2 {
 }
 .frames {
   background-color: #DBE9EE;
+  position: relative;
+  top: 300px;
 }
 .frames h2 {
   font-family: "Oswald";
@@ -127,6 +132,8 @@ h2 {
 }
 .paint {
   background-color: rgba(0, 0, 0, 0.63);
+  position: relative;
+  top: 300px;
 }
 .paint h2 {
   font-family: "Oswald";
